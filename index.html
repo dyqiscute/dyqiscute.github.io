@@ -1,31 +1,26 @@
+
 <!DOCTYPE html>
-<html lang="zh-CN"><head>
-
-
+<html lang="zh-CN">
+<head>
 <meta charset="utf-8">
 <title>fullPage.js制作魅蓝note2页面演示_dowebok</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.css" rel="stylesheet" type="text/css" /> 
-<link rel="stylesheet" type="text/css" href="http://www.dowebok.com/demo/191/css/style.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-<div id="page">
-    <div style="display: none;">
-        <img id="share-img" src="//static.biligame.net/zx/gw/pc/img/share.jpg?da9c5e85" alt="">
-    </div>
-    <audio id="bgm" src="//static.biligame.net/zx/gw/pc/img/bgm.mp3?1435d54f" volume="0.4" autoplay="autoplay" loop="loop" data-keepplaying="">
-    </audio> 
-    <main id="pages" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, 0px, 0px); transition: all 700ms ease;" page="1">
-        <div class="section page page1 fp-section active fp-completely" style="height: 1458px;">
-            <video src="//static.biligame.net/zx/gw/pc/img/op.mp4?8655eaba" autoplay="autoplay" data-keepplaying="" style="display: none;">
-            </video>
-            
-            
-    
-    
+<div class="ml-nav">
 	<div class="center-wrap clearfix">
-		<video src="//static.biligame.net/zx/gw/pc/img/op.mp4?8655eaba" autoplay="autoplay" data-keepplaying="" style="display: none;">
-            </video>
+		<h2 class="ml-logo">魅蓝note2</h2>
+		<p class="ml-link">
+			<a href="javascript:">概述</a>
+			<a href="javascript:">参数</a>
+			<a href="javascript:">图库</a>
+			<a href="javascript:">机型比较</a>
+			<a href="javascript:">意外险</a>
+		</p>
+		<a class="buy-now" href="javascript:">立即购买</a>
+	</div>
 </div>
 
 <div id="dowebok">
@@ -58,10 +53,16 @@
 	<div class="section thin">
 		<div class="center-wrap">
 			<div class="desc thin-desc">
-				<video src="//static.biligame.net/zx/gw/pc/img/op.mp4?8655eaba" autoplay="autoplay" data-keepplaying="" style="display: none;">
-            </video>
+				<h1>多彩纤薄机身</h1>
+				<p>魅蓝 note2 延续了多彩配色风格，并首次引入魅族 MX 系列的金属灰配色，深邃，且富有质感。魅蓝 note2 适于年轻个性，也完美契合轻熟商务。仅 149g 的重量，薄至 8.7mm 的厚度，更性感的 R 角弧度让单手握持毫无繁重。</p>
 			</div>
-			
+			<div class="thin-img">
+				<img alt="thin" src="images/phone-blue.png" class="thin-img1">
+				<img alt="thin" src="images/phone-white.png" class="thin-img2">
+			</div>
+		</div>
+	</div>
+
 	<div class="section cnc">
 		<div class="center-wrap">
 			<div class="desc cnc-desc">
@@ -199,14 +200,8 @@
 	</div>
 </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.js"></script>
-    
-    
-    
-    
-    
+<script src="http://cdn.bootcss.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
 <script>
 $(function(){
 	var $mlNav = $('.ml-nav');
@@ -253,3 +248,4 @@ $(function(){
 </div>
 
 </body>
+</html>
